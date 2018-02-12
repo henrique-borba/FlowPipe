@@ -1,0 +1,35 @@
+##
+# config.gateway - Define o método de carregamento da configuração
+# dos Flows. Utilize "yaml" para utilizar a configuração por arquivos
+# no diretório conf/conf.d. Utilize "mysql" para utilizar a configuração
+# através do banco de dados (recomendado para SaaS).
+##
+config.gateway: "yaml"
+
+##
+# cluster.name - Define o nome do seu Cluster para visualização através da API
+# e gerenciamento/referência posterior.
+#
+# cluster.token - Define o token único utilizado no cluster. Todas as instâncias
+# deste cluster devem utilizar o mesmo valor.
+##
+cluster.name: "MyFlowPipeCluster"
+cluster.token: "random-token"
+##
+# node.type - Define o tipo de nó na máquina atual. Utilize "master" ou "slave".
+# ATENÇÃO: Apenas 1 master por Cluster.
+#
+# node.token - Define o token único desta instância
+#
+# node.join - Utilizado apenas quando node.type está definido como "slave". O formato deve ser
+# "IP_MASTER:TOKEN_MASTER"
+##
+node.type: "master"
+node.token: "random-token"
+#node.join: "127.0.0.1:random-token"
+
+##
+# network.ip - Define o IP ou IP's [] utilizado(s) nesta instância
+##
+network.ip: ["127.0.0.1"]
+
