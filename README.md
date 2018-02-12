@@ -1,3 +1,5 @@
+## PROJETO EM CONSTRUÇÃO. NÃO FUNCIONAL
+
 # FlowPipe
 FlowPipe é uma plataforma open-source para ***ingestão***
 e processamento de dados em tempo real provenientes de diversas fontes.
