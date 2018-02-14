@@ -3,10 +3,16 @@ package org.br.dataslack.flowpipe;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.net.Socket;
+import java.net.UnknownHostException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+
+import static java.lang.Thread.sleep;
+
 
 /**
  *
@@ -37,8 +43,8 @@ public class FlowPipe implements Runnable, AutoCloseable {
         this.output = output;
         this.error = error;
         this.input = input;
-        LOGGER.debug("FLOWPIPE 1.0");
-        LOGGER.debug("Inicializando em "+home+"...");
+        LOGGER.info("FLOWPIPE 1.0");
+        LOGGER.info("Inicializando em "+home+"...");
     }
 
     /**
@@ -66,12 +72,24 @@ public class FlowPipe implements Runnable, AutoCloseable {
 
     @Override
     public void close() throws Exception {
-        LOGGER.debug("Fechando...");
+        LOGGER.info("Fechando...");
     }
 
     @Override
     public void run() {
-        LOGGER.debug("Inicializado...");
-        (new Thread(new Orchestrator(this.home, this.args, this.output, this.error, this.input))).start();
+        LOGGER.info("Inicializado...");
+        new Orchestrator(this.home, this.args, this.output, this.error, this.input).start();
+        while(true){
+            try {
+                sleep(10000);
+                Socket socket = new Socket("127.0.0.1", 3322);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (UnknownHostException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }

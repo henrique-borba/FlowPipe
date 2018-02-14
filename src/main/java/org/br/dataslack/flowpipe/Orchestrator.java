@@ -3,17 +3,22 @@ package org.br.dataslack.flowpipe;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.br.dataslack.flowpipe.orchestrator.Server;
+
 import java.io.InputStream;
 import java.io.PrintStream;
 import java.nio.file.Path;
 
-public class Orchestrator implements Runnable {
+import static java.lang.Thread.sleep;
+
+public class Orchestrator extends Thread {
 
     final static Logger LOGGER = LogManager.getLogger(Orchestrator.class);
     final private InputStream input;
     final private PrintStream output;
     final private Path home;
     final private String[] args;
+    final private PrintStream error;
 
     /**
      * FlowPipe Orchestrator
@@ -31,10 +36,21 @@ public class Orchestrator implements Runnable {
         this.output = output;
         this.home = home;
         this.args = args;
+        this.error = error;
     }
 
-    @Override
+
     public void run() {
         LOGGER.debug("Orquestrador Inicializado");
+        new Server(this.home, this.args, this.output, this.error, this.input).start();
+        while(true){
+            try {
+                sleep(10000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            LOGGER.debug("CHECKPOINT ORCHESTRATOR");
+        }
     }
+
 }
