@@ -6,4 +6,4 @@ conf/conf.d/*
 /conf/conf.d/*.yml
 /build
 /out
-build
+out
