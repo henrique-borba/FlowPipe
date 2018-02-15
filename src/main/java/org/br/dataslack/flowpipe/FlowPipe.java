@@ -26,7 +26,7 @@ public class FlowPipe implements Runnable, AutoCloseable {
     private final PrintStream error;
     private final String[] args;
     private final Path home;
-    private final Node node = Node.getNode();
+    private final Node node = Node.current();
 
     /**
      *
@@ -43,8 +43,8 @@ public class FlowPipe implements Runnable, AutoCloseable {
         this.output = output;
         this.error = error;
         this.input = input;
-        LOGGER.info("FLOWPIPE 1.0");
-        LOGGER.info("Inicializando em "+home+"...");
+        LOGGER.info("FlowPipe 0.1");
+        LOGGER.info("Starting at "+home+"...");
     }
 
     /**
@@ -52,13 +52,13 @@ public class FlowPipe implements Runnable, AutoCloseable {
      * @param args
      */
     public static void main(String... args) {
-        final String lsHome = System.getenv("FP_DIR");
-        if (lsHome == null) {
+        final String fpHome = System.getenv("FP_DIR");
+        if (fpHome == null) {
             throw new IllegalStateException(
-                    "FP_DIR environment variable must be set. This is likely a bug that should be reported."
+                    "FP_DIR environment variable must be set."
             );
         }
-        final Path home = Paths.get(lsHome).toAbsolutePath();
+        final Path home = Paths.get(fpHome).toAbsolutePath();
         try (
                 final FlowPipe flowpipe = new FlowPipe(home, args, System.out, System.err, System.in)
         ) {
@@ -72,22 +72,17 @@ public class FlowPipe implements Runnable, AutoCloseable {
 
     @Override
     public void close() throws Exception {
-        LOGGER.info("Fechando...");
+        LOGGER.info("Closing...");
     }
 
     @Override
     public void run() {
-        LOGGER.info("Inicializado...");
-        new Orchestrator(this.home, this.args, this.output, this.error, this.input).start();
+        LOGGER.info("Starting Flowpipe...");
+        new Orchestrator(this.home, this.args, this.output, this.error, this.input, this.node).start();
         while(true){
             try {
                 sleep(10000);
-                Socket socket = new Socket("127.0.0.1", 3322);
             } catch (InterruptedException e) {
-                e.printStackTrace();
-            } catch (UnknownHostException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
                 e.printStackTrace();
             }
         }

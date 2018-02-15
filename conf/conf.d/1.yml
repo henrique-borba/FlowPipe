@@ -1,0 +1,22 @@
+inputs : [
+  twitter_stream : [
+    consumer_key : "",
+    consumer_secret : "",
+    oauth_token : "",
+    oauth_secret : "",
+    keywords : ["bolsonaro"]
+  ]
+]
+
+filters : [
+]
+
+consumers : [
+]
+
+outputs : [
+  file : [
+    path : "C:/teste_output",
+    filename : "%H_%i_output.txt"
+  ]
+]

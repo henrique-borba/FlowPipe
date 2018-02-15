@@ -2,41 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9fcaf3-ad48-48a9-b81c-eb2d51599831" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/agentgateway/AgentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/agentgateway/Gateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/agentgateway/Serve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/ConsumerAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/FilterAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/InputAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/OutputAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/inputs/Drop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/inputs/Flow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/outputs/JsonOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/outputs/XMLOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-api/src/main/java/org/br/dataslack/flowpipe/api/outputs/YAMLOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-plm/src/main/java/org/br/dataslack/flowpipe/plm/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-plm/src/main/java/org/br/dataslack/flowpipe/plm/plm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/conf.d/1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/conf.d/2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowpipe-wmn/src/main/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowpipe-wmn/src/main/resources/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/FlowPipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/FlowPipe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/flowpipe-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/flowpipe-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/INDEX.MD" beforeDir="false" afterPath="$PROJECT_DIR$/docs/INDEX.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/ConfigMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/ConfigMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/FlowPipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/FlowPipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/NodeConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/NodeConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Orchestrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Orchestrator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/ConfigMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/ConfigMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/FlowPipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/FlowPipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Orchestrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Orchestrator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/Server.java" afterDir="false" />
     </list>
@@ -53,6 +39,9 @@
     <ignored path="$PROJECT_DIR$/flowpipe-plm/.gradle/" />
     <ignored path="$PROJECT_DIR$/flowpipe-plm/build/" />
     <ignored path="$PROJECT_DIR$/flowpipe-plm/out/" />
+    <ignored path="$PROJECT_DIR$/flowpipe-wmn/.gradle/" />
+    <ignored path="$PROJECT_DIR$/flowpipe-wmn/build/" />
+    <ignored path="$PROJECT_DIR$/flowpipe-wmn/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +50,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/flowpipe$FlowPipe.ic" NAME="FlowPipe Coverage Results" MODIFIED="1518425481044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/flowpipe$FlowPipe.ic" NAME="FlowPipe Coverage Results" MODIFIED="1518668025688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.br.dataslack.flowpipe.*</FILTER>
     </SUITE>
   </component>
@@ -77,6 +66,9 @@
           <activation />
         </task>
         <task path="$PROJECT_DIR$/flowpipe-kernel">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/flowpipe-wmn">
           <activation />
         </task>
         <projects_view>
@@ -133,6 +125,38 @@
                 <item name="flowpipe" type="2d1252cf:ModuleNode" />
                 <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="flowpipe" type="f1a62948:ProjectNode" />
+                <item name=":flowpipe-wmn" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="flowpipe" type="f1a62948:ProjectNode" />
+                <item name=":flowpipe-wmn" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="flowpipe" type="f1a62948:ProjectNode" />
+                <item name=":flowpipe-wmn" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="flowpipe" type="f1a62948:ProjectNode" />
+                <item name=":flowpipe-wmn" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="flowpipe" type="f1a62948:ProjectNode" />
+                <item name=":flowpipe-wmn" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -155,8 +179,8 @@
       <file leaf-file-name="FlowPipe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/FlowPipe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="279">
+              <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,20 +188,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flowpipe-plm/src/main/java/org/br/dataslack/flowpipe/plm/plm.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Connector.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flowpipe-plm/src/main/java/org/br/dataslack/flowpipe/plm/Connector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -191,13 +206,73 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="806">
+              <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="59" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Orchestrator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Orchestrator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="789">
+              <caret line="65" column="38" lean-forward="true" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+              <folding>
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-61">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding>
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,6 +285,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -225,7 +301,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Borba\.gradle\wrapper\dists\gradle-4.4-bin\bgaq7vklkazwgxox0hdadxbvi\gradle-4.4" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\Borba\.gradle\wrapper\dists\gradle-4.4-all\9br9xq1tocpiv8o6njlyu5op1\gradle-4.4" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -255,6 +331,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":flowpipe-plm" />
                 <option name="path" value="$PROJECT_DIR$/flowpipe-plm" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":flowpipe-wmn" />
+                <option name="path" value="$PROJECT_DIR$/flowpipe-wmn" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -666,17 +746,149 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/flowpipe-wmn">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':flowpipe-wmn'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':flowpipe-wmn'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':flowpipe-wmn'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':flowpipe-wmn'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':flowpipe-wmn'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':flowpipe-wmn'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':flowpipe-wmn'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':flowpipe-wmn'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':flowpipe-wmn'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/flowpipe-wmn" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7592096057292" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="135284767" />
+        <entry key="$PROJECT_DIR$" value="9111228674272" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="195123517" />
         <entry key="$PROJECT_DIR$/flowpipe-api/build.gradle" value="557974009" />
         <entry key="$PROJECT_DIR$/flowpipe-kernel/build.gradle" value="2356160409" />
         <entry key="$PROJECT_DIR$/flowpipe-plm/build.gradle" value="557974009" />
+        <entry key="$PROJECT_DIR$/flowpipe-wmn/build.gradle" value="13005193" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2083459160" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="415508344" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="3322708966" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -711,6 +923,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/flowpipe-plm" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/flowpipe-wmn">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/flowpipe-wmn" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -882,26 +1101,45 @@
       <list>
         <option value="$PROJECT_DIR$/flowpipe-kernel/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/config_gateways/MySQLGateway.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/config_gateways/YAMLGateway.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/config_gateways/ConfigGateway.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/config_gateways/Gateway.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/conf/flowpipe.yml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/vendor/ThriftClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/vendor/ThriftHandler.java" />
         <option value="$PROJECT_DIR$/bin/flowpipe.bat" />
         <option value="$PROJECT_DIR$/bin/install.bat" />
         <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/SocketConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Orchestrator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/FlowPipe.java" />
         <option value="$PROJECT_DIR$/docs/INDEX.MD" />
         <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/ConfigMapper.java" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/java/orb/br/dataslack/flowpipe/wmn/utils/HttpMethods.java" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/java/orb/br/dataslack/flowpipe/wmn/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/java/orb/br/dataslack/flowpipe/wmn/Routes.java" />
+        <option value="$PROJECT_DIR$/conf/conf.d/1.yml" />
+        <option value="$PROJECT_DIR$/conf/conf.d/2.yml" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/java/orb/br/dataslack/flowpipe/wmn/views/index.html" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/java/orb/br/dataslack/flowpipe/wmn/WebManager.java" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/resources/style.css" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/resources/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/java/org/br/dataslack/flowpipe/wmn/Routes.java" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/java/org/br/dataslack/flowpipe/wmn/Router.java" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/java/org/br/dataslack/flowpipe/wmn/utils/HttpMethods.java" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/java/org/br/dataslack/flowpipe/wmn/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/java/org/br/dataslack/flowpipe/wmn/controllers/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Orchestrator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeManager.java" />
+        <option value="$PROJECT_DIR$/flowpipe-wmn/src/main/java/org/br/dataslack/flowpipe/wmn/WebManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/FlowPipe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/Server.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -932,150 +1170,6 @@
               <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
               <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="flowpipe-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="flowpipe-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="flowpipe-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="flowpipe-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="flowpipe-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flowpipe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="flowpipe-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flowpipe" type="462c0819:PsiDirectoryNode" />
-              <item name="agentgateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="flowpipe-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flowpipe" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="flowpipe-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flowpipe" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="inputs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="flowpipe-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flowpipe" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="outputs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flowpipe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flowpipe" type="462c0819:PsiDirectoryNode" />
-              <item name="config_gateways" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flowpipe" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flowpipe" type="462c0819:PsiDirectoryNode" />
-              <item name="orchestrator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flowpipe" type="462c0819:PsiDirectoryNode" />
-              <item name="workers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1089,6 +1183,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Borba\IdeaProjects\flowpipe\flowpipe-wmn\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Borba\IdeaProjects\flowpipe\src\main\resources" />
     </key>
@@ -1265,7 +1362,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1518419204176" />
+    <option name="lastUpdateTimestamp" value="1518658698595" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1280,12 +1377,20 @@
       <workItem from="1518412954570" duration="17746000" />
       <workItem from="1518468491812" duration="778000" />
       <workItem from="1518577811938" duration="2980000" />
-      <workItem from="1518646755138" duration="812000" />
+      <workItem from="1518646755138" duration="10560000" />
     </task>
+    <task id="LOCAL-00001" summary="New Architeture for FlowPipe-API (Agent Gateway and Plugins API) and FlowPipe-PLM (Plugin Manager)">
+      <created>1518647658963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518647658963</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22316000" />
+    <option name="totallyTimeSpent" value="32064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1298,39 +1403,40 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49946696" weight="0.32897604" />
       <window_info anchor="right" id="sbt" order="3" weight="0.2457356" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50479746" side_tool="true" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5074627" side_tool="true" visible="true" weight="0.32897604" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" visible="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4978678" weight="0.33660132" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4989339" weight="0.32897604" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.49917898" visible="true" weight="0.20895523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49733475" weight="0.39978212" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49840087" weight="0.32897604" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49253732" visible="true" weight="0.32897604" />
+      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.5032467" side_tool="true" visible="true" weight="0.20895523" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4978678" weight="0.33660132" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32897604" />
+      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.49675325" visible="true" weight="0.20895523" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.39978212" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946696" weight="0.32897604" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.500821" side_tool="true" visible="true" weight="0.29264393" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1339,207 +1445,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New Architeture for FlowPipe-API (Agent Gateway and Plugins API) and FlowPipe-PLM (Plugin Manager)" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Architeture for FlowPipe-API (Agent Gateway and Plugins API) and FlowPipe-PLM (Plugin Manager)" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Cluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/OutputMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/config_gateways/GatewayConfig.java" />
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="449">
-            <caret line="58" column="106" selection-start-line="58" selection-start-column="106" selection-end-line="58" selection-end-column="106" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/ConfWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/workers/InputWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/FilterStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/workers/ConsumerWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/vendor/ThriftClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/vendor/ThriftService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/vendor/ThriftHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/config_gateways/MySQLGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/config_gateways/YAMLGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/config_gateways/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/config_gateways/ConfigGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/config_gateways/Gateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/install.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/flowpipe.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/SocketConfig.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="133" column="11" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Orchestrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/flowpipe.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/INDEX.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="10" selection-start-column="10" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/FlowPipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/HealthCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/ConfigMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1645,16 +1560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flowpipe-plm/src/main/java/org/br/dataslack/flowpipe/plm/plm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1687,6 +1592,263 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/java/orb/br/dataslack/flowpipe/wmn/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/java/orb/br/dataslack/flowpipe/wmn/utils/HttpMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/java/orb/br/dataslack/flowpipe/wmn/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/java/orb/br/dataslack/flowpipe/wmn/Routes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/conf.d/2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/conf.d/1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.nanohttpd/nanohttpd/2.2.0/20a9ca81710c4d8ff15cec71a51333ae6364e290/nanohttpd-2.2.0-sources.jar!/fi/iki/elonen/NanoHTTPD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="2014" column="20" selection-start-line="2014" selection-start-column="20" selection-end-line="2014" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/java/orb/br/dataslack/flowpipe/wmn/Router.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2387">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/resources/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+          <folding>
+            <element signature="e#61909#62109#2" expanded="true" />
+            <element signature="e#62317#62466#2" expanded="true" />
+            <element signature="e#62968#63114#2" expanded="true" />
+            <element signature="e#63415#63581#1" expanded="true" />
+            <element signature="e#74301#74544#2" expanded="true" />
+            <element signature="e#75411#75660#2" expanded="true" />
+            <element signature="e#101957#102147#2" expanded="true" />
+            <element signature="e#102193#102383#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/java/orb/br/dataslack/flowpipe/wmn/WebManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="58" column="81" selection-start-line="58" selection-start-column="81" selection-end-line="58" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/java/org/br/dataslack/flowpipe/wmn/Routes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/java/org/br/dataslack/flowpipe/wmn/Router.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/java/org/br/dataslack/flowpipe/wmn/utils/HttpMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/java/org/br/dataslack/flowpipe/wmn/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/java/org/br/dataslack/flowpipe/wmn/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/OutputMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowpipe-wmn/src/main/java/org/br/dataslack/flowpipe/wmn/WebManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Orchestrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="65" column="38" lean-forward="true" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="59" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/flowpipe.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/FlowPipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>

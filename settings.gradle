@@ -1,4 +1,5 @@
 rootProject.name = 'flowpipe'
 include 'flowpipe-api'
 include 'flowpipe-plm'
+include 'flowpipe-wmn'
 

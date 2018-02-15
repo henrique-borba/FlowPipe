@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/flowpipe-api" />
             <option value="$PROJECT_DIR$/flowpipe-plm" />
+            <option value="$PROJECT_DIR$/flowpipe-wmn" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

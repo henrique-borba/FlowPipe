@@ -2,6 +2,7 @@ package org.br.dataslack.flowpipe.orchestrator;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.br.dataslack.flowpipe.Orchestrator;
 
 import java.io.*;
 import java.net.InetAddress;
@@ -27,7 +28,7 @@ public class Server extends Thread  {
      * @param input
      */
     public Server(final Path home, final String[] args, final PrintStream output,
-                  final PrintStream error, final InputStream input) {
+                  final PrintStream error, final InputStream input, Orchestrator orchestrator) {
         this.server = null;
         this.input = input;
     }
@@ -55,7 +56,6 @@ public class Server extends Thread  {
 
     /**
      * Listen and wait for nodes join the cluster.
-     *
      */
     // TODO: 12-Feb-18 Atualizar mensagens de debug e error
     public void listen() {
@@ -79,7 +79,6 @@ public class Server extends Thread  {
 
     /**
      * Start Orchestrator Master Server for Cluster Management
-     * 
      */
     // TODO: 12-Feb-18 Carregar porta e configuração de ip da configuração e atualizar mensagens
     public void run() {
