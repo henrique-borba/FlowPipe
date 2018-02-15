@@ -2,29 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9fcaf3-ad48-48a9-b81c-eb2d51599831" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/conf.d/1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/conf.d/2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-wmn/src/main/resources/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowpipe-wmn/src/main/resources/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/FlowPipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/FlowPipe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/NodeConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/NodeConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Orchestrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Orchestrator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/FlowPipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/FlowPipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/NodeConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Orchestrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/Orchestrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/dataslack/flowpipe/orchestrator/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/Cluster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/ConfigMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/Drop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/FilterStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/Flow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/FlowPipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/Guardian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/HealthCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/NodeConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/Orchestrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/OutputMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/config_gateways/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/config_gateways/ConfigGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/config_gateways/Gateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/config_gateways/MySQLGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/config_gateways/YAMLGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/mappers/JSONMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/mappers/XMLMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/workers/FilterWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/workers/InputWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/br/dataslack/flowpipe/workers/OutputWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/flowpipe-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/conf.d/1.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/conf.d/2.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Cluster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/ConfigMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Drop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/FilterStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Flow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/FlowPipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Guardian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/HealthCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/NodeConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Orchestrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/OutputMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/config_gateways/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/config_gateways/ConfigGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/config_gateways/Gateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/config_gateways/MySQLGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/config_gateways/YAMLGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/mappers/JSONMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/mappers/XMLMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/workers/FilterWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/workers/InputWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/br/dataslack/flowpipe/workers/OutputWorker.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/modules/target/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -1170,6 +1201,17 @@
               <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
               <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowpipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowpipe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="conf.d" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1377,7 +1419,7 @@
       <workItem from="1518412954570" duration="17746000" />
       <workItem from="1518468491812" duration="778000" />
       <workItem from="1518577811938" duration="2980000" />
-      <workItem from="1518646755138" duration="10560000" />
+      <workItem from="1518646755138" duration="10855000" />
     </task>
     <task id="LOCAL-00001" summary="New Architeture for FlowPipe-API (Agent Gateway and Plugins API) and FlowPipe-PLM (Plugin Manager)">
       <created>1518647658963</created>
@@ -1386,11 +1428,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518647658963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated FlowPipe NodeManager and Node objects. WebManager base template.&#10;Orchestrator new methods for different NodeTypes.">
+      <created>1518668276049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518668276049</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32064000" />
+    <option name="totallyTimeSpent" value="32359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1403,7 +1452,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="sbt" order="3" weight="0.2457356" />
@@ -1447,7 +1495,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Architeture for FlowPipe-API (Agent Gateway and Plugins API) and FlowPipe-PLM (Plugin Manager)" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Architeture for FlowPipe-API (Agent Gateway and Plugins API) and FlowPipe-PLM (Plugin Manager)" />
+    <MESSAGE value="Updated FlowPipe NodeManager and Node objects. WebManager base template.&#10;Orchestrator new methods for different NodeTypes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated FlowPipe NodeManager and Node objects. WebManager base template.&#10;Orchestrator new methods for different NodeTypes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
