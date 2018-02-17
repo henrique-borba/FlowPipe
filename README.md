@@ -17,23 +17,6 @@ FlowPipe permite a integração de seus parâmetros de configuração
 tanto em YAML como utilizando um banco de dados MySQL. Isso permite atualizar as configurações
 do FlowPipe em tempo real com o mínimo de esforço ou sistemas agendados.
 
-## Cluster
-O cluster do FlowPipe é dividido em 2 tipos: ***Master***,
-***Slave***.
-
-- **MASTER** - Executa Inputs, Filters, Outputs e o sistema de gereciamento (Orchestrator)
-- **SLAVE** - Executa Filters e Outputs
-
-### Orchestrator
-O sistema de gerenciamento possui as seguintes características:
-
-- Utiliza os status de saúde (Health Check) dos nós do cluster
-para decidir em quais nós o próximo pacote de dados (*flow*) será enviado.
-- O sistema de gerenciamento deve também realocar os
-dados (*drops*) e redistribuí-los em novos pacotes para utilização em um nó com
-melhor saúde.
-
-
 # Plugins
 
 ## Entrada (Inputs)
