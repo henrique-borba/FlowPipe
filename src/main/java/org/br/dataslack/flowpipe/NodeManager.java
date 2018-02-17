@@ -18,6 +18,7 @@ public class NodeManager {
      * @param current_node
      */
     NodeManager(Node current_node) {
+        LOGGER.debug("Registering current node...");
         this.nodes.add(current_node);
     }
 

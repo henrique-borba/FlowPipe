@@ -8,31 +8,24 @@ import java.io.InputStreamReader;
 import java.util.Map;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
+import org.br.dataslack.flowpipe.FlowPipe;
 
 public class WebManager extends NanoHTTPD{
 
     final static Logger LOGGER = LogManager.getLogger(WebManager.class);
 
 
-    public WebManager() throws IOException {
-        super(8080);
+    public WebManager(FlowPipe flowpipe) throws IOException {
+        super((int)flowpipe.getNode().getConfig().map().get("wmn.port"));
         start(NanoHTTPD.SOCKET_READ_TIMEOUT, false);
-        System.out.println("\nFlowPipe WebManager started at http://localhost:8080/ \n");
-    }
-
-
-    public static void main() {
-        try {
-            new WebManager();
-        } catch (IOException e) {
-            LOGGER.error(e.getMessage());
-        }
+        System.out.println("\nFlowPipe WebManager started at http://"+
+                flowpipe.getNode().getConfig().map().get("wmn.host").toString()+":"+
+                flowpipe.getNode().getConfig().map().get("wmn.port").toString()+"/ \n");
     }
 
     @Override
     public Response serve(IHTTPSession session) {
         InputStream in = getClass().getResourceAsStream("/index.html");
-        LOGGER.debug("Carregando dados");
         BufferedReader reader = new BufferedReader(new InputStreamReader(in));
         String msg = "<!doctype html>\n" +
                 "<html lang=\"en\">\n" +

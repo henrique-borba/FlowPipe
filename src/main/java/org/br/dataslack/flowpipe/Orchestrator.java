@@ -34,7 +34,7 @@ public class Orchestrator extends Thread {
     public void master_() {
         LOGGER.debug("Started MASTER");
         try {
-            WebManager wmn = new WebManager();
+            WebManager wmn = new WebManager(this.current_flowpipe);
         } catch (IOException e) {
             LOGGER.error(e.getMessage());
         }
