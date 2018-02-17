@@ -7,10 +7,6 @@ import org.apache.logging.log4j.Logger;
 import org.br.dataslack.flowpipe.orchestrator.Server;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.PrintStream;
-import java.nio.file.Path;
-import static java.lang.Thread.sleep;
 
 /**
  * FlowPipe Orchestrator

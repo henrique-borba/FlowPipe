@@ -7,6 +7,18 @@
 config.gateway: "yaml"
 
 ##
+# ORCHESTRATOR CONFIGURATION SECTION
+##
+orchestrator.port: 3232
+orchestrator.host: "127.0.0.1"
+
+##
+# WEBMANAGER CONFIGUATION SECTION
+##
+wmn.host: "127.0.0.1"
+wmn.port: 8080
+
+##
 # cluster.name - Define o nome do seu Cluster para visualização através da API
 # e gerenciamento/referência posterior.
 #

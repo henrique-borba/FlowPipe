@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import java.nio.file.Path;
 
 /**
  *  Node Class
@@ -34,10 +35,10 @@ public class Node {
      *
      * @return
      */
-    public static Node current() {
+    public static Node current(Path home) {
         LOGGER.debug("Loading current Node configuration");
         // TODO: 15-Feb-18 Get correct saved configuration from flowpipe.yml
-        return new Node(NodeType.MASTER,"master", NodeConfig.load_current());
+        return new Node(NodeType.MASTER,"master", NodeConfig.load_current(home));
     }
 
     /**
@@ -58,5 +59,7 @@ public class Node {
         return this.name;
     }
 
-
+    public NodeConfig getConfig() {
+        return this.config;
+    }
 }

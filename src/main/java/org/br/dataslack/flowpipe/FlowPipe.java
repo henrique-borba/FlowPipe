@@ -26,7 +26,7 @@ public class FlowPipe implements Runnable, AutoCloseable {
     private final PrintStream error;
     private final String[] args;
     private final Path home;
-    private final Node node = Node.current();
+    private final Node node;
 
     /**
      * FlowPipe
@@ -43,23 +43,39 @@ public class FlowPipe implements Runnable, AutoCloseable {
         this.args = args;
         this.output = output;
         this.error = error;
+        this.node = Node.current(home);
         this.input = input;
         LOGGER.info("FlowPipe 0.1");
         LOGGER.info("Starting at "+home+"...");
     }
 
+    /**
+     *
+     * @return
+     */
     public PrintStream getErrorStream() {
         return this.error;
     }
 
+    /**
+     *
+     * @return
+     */
     public Logger getMainLogger() {
         return this.LOGGER;
     }
 
+    /**
+     *
+     * @return
+     */
     public InputStream getStreamInput() {
         return this.input;
     }
 
+    /**
+     * @return
+     */
     public PrintStream getStreamOutput() {
         return this.output;
     }

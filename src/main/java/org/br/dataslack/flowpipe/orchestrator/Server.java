@@ -9,7 +9,6 @@ import java.io.*;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.file.Path;
 
 /**
  * Orchestrator Server
@@ -20,6 +19,9 @@ public class Server extends Thread  {
     final private FlowPipe current_flowpipe;
     final private Orchestrator orchestrator;
     private ServerSocket server = null;
+    final private String host;
+    final private int port;
+
     /**
      * 
      * @param current_flowpipe Current FlowPipe
@@ -28,7 +30,9 @@ public class Server extends Thread  {
     public Server(FlowPipe current_flowpipe, Orchestrator orchestrator) {
         this.current_flowpipe = current_flowpipe;
         this.orchestrator = orchestrator;
-        this.server = this.createServer("127.0.0.1", 3222);
+        this.host = this.current_flowpipe.getNode().getConfig().map().get("orchestrator.host").toString();
+        this.port = (int) this.current_flowpipe.getNode().getConfig().map().get("orchestrator.port");
+        this.server = this.createServer(this.host, this.port);
     }
 
     /**
@@ -73,7 +77,7 @@ public class Server extends Thread  {
      */
     // TODO: 12-Feb-18 Atualizar mensagens de debug e error
     public void listen() {
-        LOGGER.debug("Started server at localhost:3322");
+        LOGGER.debug("Started server at "+this.host+":"+this.port);
         String data = null;
         Socket client = null;
         try {
