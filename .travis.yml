@@ -1,0 +1,3 @@
+script:
+  - gradle assemble
+  - gradle check
