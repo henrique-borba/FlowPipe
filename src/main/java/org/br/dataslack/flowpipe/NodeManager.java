@@ -20,6 +20,8 @@ public class NodeManager {
     NodeManager(Node current_node) {
         LOGGER.debug("Registering current node...");
         this.nodes.add(current_node);
+        this.nodes.add(current_node);
+        this.nodes.add(current_node);
     }
 
     /**

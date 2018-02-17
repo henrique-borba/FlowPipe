@@ -16,12 +16,11 @@ public final class NodeController {
             "                                <h4 class=\"my-0 font-weight-normal\">{{$name}}</h4>" +
             "                            </div>" +
             "                            <div class=\"card-body\">" +
-            "                                <h1 class=\"card-title pricing-card-title\">0 <small class=\"text-muted\">/ drops</small></h1>" +
+            "                                <h1 class=\"card-title pricing-card-title\">0 <small class=\"text-muted\">/ flows</small></h1>" +
             "                                <ul class=\"list-unstyled mt-3 mb-4\">" +
-            "                                    <li>10 users included</li>" +
-            "                                    <li>2 GB of storage</li>" +
-            "                                    <li>Email support</li>" +
-            "                                    <li>Help center access</li>" +
+            "                                    <li class=\"mt-1\">Allocated Memory</br><div class=\"progress\"> <div class=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 75%\"></div> </div></li>" +
+            "                                    <li class=\"mt-1\">Maximum Memory</br><div class=\"progress\"> <div class=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 75%\"></div> </div></li>" +
+            "                                    <li class=\"mt-1\">Free Memory</br><div class=\"progress\"> <div class=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 75%\"></div> </div></li>" +
             "                                </ul>" +
             "                                <button type=\"button\" class=\"btn btn-lg btn-block btn-outline-primary\">Sign up for free</button>" +
             "                            </div>" +
