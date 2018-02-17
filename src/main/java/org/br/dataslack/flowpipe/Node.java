@@ -16,6 +16,8 @@ public class Node {
     private NodeConfig config;
     private String name;
     final private NodeType type;
+    private NodeStatus status;
+
 
     /**
      * Construct a new node object
@@ -28,6 +30,7 @@ public class Node {
         this.name = name;
         this.config = config;
         this.type = type;
+        this.status = NodeStatus.LOADING;
     }
 
     /**
@@ -62,4 +65,15 @@ public class Node {
     public NodeConfig getConfig() {
         return this.config;
     }
+
+    public void update() {
+        this.status = this.updateNodeStatus();
+    }
+
+    private NodeStatus updateNodeStatus() {
+        return NodeStatus.GREEN;
+    }
+
+
+
 }

@@ -16,6 +16,7 @@ public class Orchestrator extends Thread {
     final static Logger LOGGER = LogManager.getLogger(Orchestrator.class);
     private NodeManager nmngr;
     final private FlowPipe current_flowpipe;
+    final private FlowManager flowmng;
 
     /**
      * FlowPipe Orchestrator
@@ -26,6 +27,7 @@ public class Orchestrator extends Thread {
         LOGGER.debug("Starting Orchestrator...");
         this.current_flowpipe = flowpipe;
         this.nmngr = new NodeManager(this.current_flowpipe.getNode());
+        this.flowmng = new FlowManager(this);
     }
 
     /**
@@ -34,7 +36,7 @@ public class Orchestrator extends Thread {
     public void master_() {
         LOGGER.debug("Started MASTER");
         try {
-            WebManager wmn = new WebManager(this.current_flowpipe);
+            WebManager wmn = new WebManager(this.current_flowpipe,this);
         } catch (IOException e) {
             LOGGER.error(e.getMessage());
         }
@@ -63,6 +65,19 @@ public class Orchestrator extends Thread {
             }
             LOGGER.debug("CHECKPOINT ORCHESTRATOR");
         }
+    }
+
+    /**
+     * Get NodeManagement Object
+     * @return
+     */
+    public NodeManager getNodeManager() {
+        return this.nmngr;
+    }
+
+
+    public FlowManager getFlowManager() {
+        return this.flowmng;
     }
 
     /**

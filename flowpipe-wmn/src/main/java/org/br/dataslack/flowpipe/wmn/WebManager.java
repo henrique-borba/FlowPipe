@@ -9,14 +9,21 @@ import java.util.Map;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 import org.br.dataslack.flowpipe.FlowPipe;
+import org.br.dataslack.flowpipe.Orchestrator;
+import org.br.dataslack.flowpipe.wmn.controllers.FlowController;
+import org.br.dataslack.flowpipe.wmn.controllers.NodeController;
 
 public class WebManager extends NanoHTTPD{
 
     final static Logger LOGGER = LogManager.getLogger(WebManager.class);
+    final private FlowPipe current_flowpipe;
+    final private Orchestrator orchestrator;
 
 
-    public WebManager(FlowPipe flowpipe) throws IOException {
+    public WebManager(FlowPipe flowpipe, Orchestrator orchestrator) throws IOException {
         super((int)flowpipe.getNode().getConfig().map().get("wmn.port"));
+        this.current_flowpipe = flowpipe;
+        this.orchestrator = orchestrator;
         start(NanoHTTPD.SOCKET_READ_TIMEOUT, false);
         System.out.println("\nFlowPipe WebManager started at http://"+
                 flowpipe.getNode().getConfig().map().get("wmn.host").toString()+":"+
@@ -74,6 +81,8 @@ public class WebManager extends NanoHTTPD{
             msg += "<p>Hello, " + parms.get("username") + "!</p>";
         }*/
         msg = msg + "</body></html>";
+        msg = msg.replace("{{node_widgets}}", NodeController.buildWidgets(this.orchestrator.getNodeManager()));
+        msg = msg.replace("{{flow_widgets}}", FlowController.buildWidgets(this.orchestrator.getFlowManager()));
         return newFixedLengthResponse(msg);
 
     }
