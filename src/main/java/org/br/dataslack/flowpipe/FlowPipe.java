@@ -15,7 +15,7 @@ import static java.lang.Thread.sleep;
 
 
 /**
- *
+ * FlowPipe
  */
 public class FlowPipe implements Runnable, AutoCloseable {
 
@@ -29,6 +29,7 @@ public class FlowPipe implements Runnable, AutoCloseable {
     private final Node node = Node.current();
 
     /**
+     * FlowPipe
      *
      * @param home
      * @param args
@@ -47,8 +48,48 @@ public class FlowPipe implements Runnable, AutoCloseable {
         LOGGER.info("Starting at "+home+"...");
     }
 
+    public PrintStream getErrorStream() {
+        return this.error;
+    }
+
+    public Logger getMainLogger() {
+        return this.LOGGER;
+    }
+
+    public InputStream getStreamInput() {
+        return this.input;
+    }
+
+    public PrintStream getStreamOutput() {
+        return this.output;
+    }
+
+
     /**
-     *
+     * Get current FlowPipe Args
+     * @return
+     */
+    public String[] getArgs() {
+        return this.args;
+    }
+
+    /**
+     * Get current FlowPipe Node object
+     * @return
+     */
+    public Node getNode() {
+        return this.node;
+    }
+
+    /**
+     * Return loaded FlowPipe Home Path
+     * @return
+     */
+    public Path getHome() {
+        return this.home;
+    }
+
+    /**
      * @param args
      */
     public static void main(String... args) {
@@ -78,7 +119,7 @@ public class FlowPipe implements Runnable, AutoCloseable {
     @Override
     public void run() {
         LOGGER.info("Starting Flowpipe...");
-        new Orchestrator(this.home, this.args, this.output, this.error, this.input, this.node).start();
+        new Orchestrator(this).start();
         while(true){
             try {
                 sleep(10000);

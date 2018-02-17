@@ -44,7 +44,7 @@ public class WebManager extends NanoHTTPD{
                 "    <meta name=\"author\" content=\"\">\n" +
                 "    <link rel=\"icon\" href=\"../../../../favicon.ico\">\n" +
                 "\n" +
-                "    <title>Pricing example for Bootstrap</title>\n" +
+                "    <title>FlowPipe WebManager</title>\n" +
                 "\n" +
                 "    <!-- Bootstrap core CSS -->\n" +
                 "    <link href=\"../../../../dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n" +

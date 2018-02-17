@@ -10,39 +10,26 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
 import java.nio.file.Path;
-
 import static java.lang.Thread.sleep;
 
+/**
+ * FlowPipe Orchestrator
+ */
 public class Orchestrator extends Thread {
 
     final static Logger LOGGER = LogManager.getLogger(Orchestrator.class);
-    final private InputStream input;
-    final private PrintStream output;
-    final private Path home;
-    final private String[] args;
-    final private PrintStream error;
     private NodeManager nmngr;
-    final private Node node;
+    final private FlowPipe current_flowpipe;
 
     /**
      * FlowPipe Orchestrator
      *
-     * @param home
-     * @param args
-     * @param output
-     * @param error
-     * @param input
+     * @param flowpipe
      */
-    Orchestrator (final Path home, final String[] args, final PrintStream output,
-                  final PrintStream error, final InputStream input, final Node node) {
+    Orchestrator (FlowPipe flowpipe) {
         LOGGER.debug("Starting Orchestrator...");
-        this.input = input;
-        this.output = output;
-        this.home = home;
-        this.args = args;
-        this.error = error;
-        this.node = node;
-        this.nmngr = new NodeManager(node);
+        this.current_flowpipe = flowpipe;
+        this.nmngr = new NodeManager(this.current_flowpipe.getNode());
     }
 
     /**
@@ -55,7 +42,8 @@ public class Orchestrator extends Thread {
         } catch (IOException e) {
             LOGGER.error(e.getMessage());
         }
-        new Server(this.home, this.args, this.output, this.error, this.input, this).start();
+        new Server(this.current_flowpipe,
+                this).start();
         this.master_runtime();
     }
 
@@ -73,7 +61,7 @@ public class Orchestrator extends Thread {
     private void master_runtime() {
         while(true){
             try {
-                sleep(10000);
+                sleep(30000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -87,7 +75,7 @@ public class Orchestrator extends Thread {
     private void slave_runtime() {
         while(true){
             try {
-                sleep(10000);
+                sleep(20000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -100,7 +88,7 @@ public class Orchestrator extends Thread {
      */
     public void run() {
         // Determines wich Orchestration methods to use
-        if(this.node.getType() == NodeType.MASTER) {
+        if(this.current_flowpipe.getNode().getType() == NodeType.MASTER) {
             // Run MASTER
             this.master_();
         } else {

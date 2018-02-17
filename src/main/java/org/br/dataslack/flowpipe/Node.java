@@ -7,7 +7,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 /**
- *  Cluster Node Class
+ *  Node Class
  */
 public class Node {
 
@@ -47,6 +47,15 @@ public class Node {
      */
     public NodeType getType() {
         return this.type;
+    }
+
+    /**
+     * Get Node Name
+     *
+     * @return String Node Name
+     */
+    public String getName() {
+        return this.name;
     }
 
 

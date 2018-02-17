@@ -2,6 +2,7 @@ package org.br.dataslack.flowpipe.orchestrator;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.br.dataslack.flowpipe.FlowPipe;
 import org.br.dataslack.flowpipe.Orchestrator;
 
 import java.io.*;
@@ -11,26 +12,23 @@ import java.net.Socket;
 import java.nio.file.Path;
 
 /**
- *
+ * Orchestrator Server
  */
 public class Server extends Thread  {
 
     final private static Logger LOGGER = LogManager.getLogger(Server.class);
-    private final InputStream input;
-    public ServerSocket server;
-
+    final private FlowPipe current_flowpipe;
+    final private Orchestrator orchestrator;
+    private ServerSocket server = null;
     /**
      * 
-     * @param home
-     * @param args
-     * @param output
-     * @param error
-     * @param input
+     * @param current_flowpipe Current FlowPipe
+     * @param orchestrator Current Orchestrator
      */
-    public Server(final Path home, final String[] args, final PrintStream output,
-                  final PrintStream error, final InputStream input, Orchestrator orchestrator) {
-        this.server = null;
-        this.input = input;
+    public Server(FlowPipe current_flowpipe, Orchestrator orchestrator) {
+        this.current_flowpipe = current_flowpipe;
+        this.orchestrator = orchestrator;
+        this.server = this.createServer("127.0.0.1", 3222);
     }
 
     /**
@@ -52,6 +50,22 @@ public class Server extends Thread  {
      */
     public void node_join() {
 
+    }
+
+    /**
+     * Create ServerSocket for Orchestrator COM
+     *
+     * @param host
+     * @param port
+     */
+    public ServerSocket createServer(String host, int port) {
+        try {
+            return new ServerSocket(port, 1, InetAddress.getByName(host));
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.exit(0);
+        }
+        return null;
     }
 
     /**
@@ -78,18 +92,11 @@ public class Server extends Thread  {
     }
 
     /**
-     * Start Orchestrator Master Server for Cluster Management
+     * Start Orchestrator Master Server for ClusterManagement
      */
     // TODO: 12-Feb-18 Carregar porta e configuração de ip da configuração e atualizar mensagens
     public void run() {
-        try {
-            this.server = new ServerSocket(3322, 1, InetAddress.getByName("127.0.0.1"));
-            this.listen();
-        } catch (IOException e) {
-            LOGGER.error(e.getMessage());
-            e.printStackTrace();
-            System.exit(0);
-        }
+        this.listen();
     }
 
 }
